@@ -8,10 +8,49 @@
 <body>
     <div class="body-container">
         <div class="image-container">
-            <p>See What's Happening</p>
+            <p>Capture the Moment</p>
             <p>Sign Up Now</p>
         </div>
-        <div class="grey-container"></div>
+        <div class="grey-container">
+            <div class="top-wrapper">
+                <p>This is not a real online service! You know you need something like this in your life to help
+                    you realize your deepest dreams. Sign up <em>now</em> to get started. <br><br>
+                    You <em>know</em> you want to.
+                </p>
+            </div>
+            <div class="form-wrapper">
+                <p>Let's get started</p>
+                <form id="create-user">
+                    <div>
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="user-first-name">
+    
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="user-last-name">
+                    </div>
+
+                    <div>
+                        <label for="email-address">Email</label>
+                        <input type="email" id="email-address" name="user-email">
+
+                        <label for="phone-number">Phone Number</label>
+                        <input type="tel" id="phone-number" name="user-phone-number">
+                    </div>
+
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="user-password">
+
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" name="user-confirm-password">
+                    </div>
+                </form>
+            </div>
+            <div class="bottom-wrapper">
+                <button type="submit" form="create-user">Create Account</button>
+                <p>Already have an account? <a href="index.html">Log in</a></p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
